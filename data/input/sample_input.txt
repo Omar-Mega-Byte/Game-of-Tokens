@@ -1,0 +1,10 @@
+Program
+Division x {
+W decrease() {
+    Ire reg3 = 5;
+    ContinueWhen (counter < num ; reg3 ; 1) {
+    reg3 = reg3 - 1;
+}
+}
+}
+End
