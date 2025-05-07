@@ -1,0 +1,22 @@
+--- Parser Output ---
+Matched Rules:
+- Rule: Line 1: Token Text: Program         Token Type: Start Statement -> Line 2: Token Text: Division        Token Type: Class
+- Rule: Line 2: Token Text: x               Token Type: Identifier -> Line 2: Token Text: {               Token Type: Braces
+- Rule: Line 3: Token Text: W               Token Type: Identifier -> Line 3: Token Text: decrease        Token Type: Identifier
+- Rule: Line 3: Token Text: (               Token Type: Braces -> Line 3: Token Text: )               Token Type: Braces
+- Rule: Line 3: Token Text: {               Token Type: Braces -> Line 4: Token Text: Ire             Token Type: Integer
+- Rule: Line 4: Token Text: reg3            Token Type: Identifier -> Line 4: Token Text: =               Token Type: Assignment operation
+- Rule: Line 4: Token Text: 5               Token Type: Constant -> Line 4: Token Text: ;               Token Type: Statement_Terminator
+- Rule: Line 5: Token Text: ContinueWhen    Token Type: Loop -> Line 5: Token Text: (               Token Type: Braces
+- Rule: Line 5: Token Text: counter         Token Type: Identifier -> Line 5: Token Text: <               Token Type: Logic operators relational
+- Rule: Line 5: Token Text: num             Token Type: Identifier -> Line 5: Token Text: ;               Token Type: Statement_Terminator
+- Rule: Line 5: Token Text: reg3            Token Type: Identifier -> Line 5: Token Text: ;               Token Type: Statement_Terminator
+- Rule: Line 5: Token Text: 1               Token Type: Constant -> Line 5: Token Text: )               Token Type: Braces
+- Rule: Line 5: Token Text: {               Token Type: Braces -> Line 6: Token Text: reg3            Token Type: Identifier
+- Rule: Line 6: Token Text: =               Token Type: Assignment operation -> Line 6: Token Text: reg3            Token Type: Identifier
+- Rule: Line 6: Token Text: -               Token Type: Arithmetic Operation -> Line 6: Token Text: 1               Token Type: Constant
+- Rule: Line 6: Token Text: ;               Token Type: Statement_Terminator -> Line 7: Token Text: }               Token Type: Braces
+- Rule: Line 8: Token Text: }               Token Type: Braces -> Line 9: Token Text: }               Token Type: Braces
+- Rule: Line 10: Token Text: End             Token Type: End Statement -> Total number of errors: 0
+
+Number of Syntax Errors: 3
